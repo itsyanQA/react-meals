@@ -1,0 +1,28 @@
+{
+  "meals": [
+    {
+      "mealTitle": "Sushi",
+      "mealDescription": "Finest fish and veggies",
+      "mealPrice": "$22.99",
+      "mealId": 1
+    },
+    {
+      "mealTitle": "Schnitzel",
+      "mealDescription": "A german specialty!",
+      "mealPrice": "$16.50",
+      "mealId": 2
+    },
+    {
+      "mealTitle": "Barbecue Burger",
+      "mealDescription": "American, raw, meaty",
+      "mealPrice": "$12.99",
+      "mealId": 3
+    },
+    {
+      "mealTitle": "Green Bowl",
+      "mealDescription": "Healthy...and green...",
+      "mealPrice": "$18.99",
+      "mealId": 4
+    }
+  ]
+}

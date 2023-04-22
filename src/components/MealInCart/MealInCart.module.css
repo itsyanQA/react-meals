@@ -1,0 +1,30 @@
+.mealInCartWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 35%;
+}
+
+.priceAndQuantitySection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.quantity {
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
