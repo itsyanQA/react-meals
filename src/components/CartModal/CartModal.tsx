@@ -7,6 +7,7 @@ import { MealCount, MealInformation } from "../../models/MealInformation";
 import ReactDOM from "react-dom";
 import BoldText from "../../styled/BoldText";
 import CartActionButton from "../../styled/CartActionButton";
+import { mainColor } from "../../utils/constants/colors";
 
 const CartModal: Function = ({
   setModalVisibility,
@@ -91,7 +92,7 @@ const CartModal: Function = ({
             Close
           </CartActionButton>
           <CartActionButton
-            backgroundColor="#e28e2f"
+            backgroundColor={mainColor}
             color="white"
             onClick={() => console.log("Ordering...")}
           >

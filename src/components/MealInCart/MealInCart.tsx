@@ -7,6 +7,7 @@ import MealPrice from "../../styled/MealPrice";
 import { MealCount } from "../../models/MealInformation";
 import QuantityButton from "../../styled/QuantityButton";
 import { Action } from "../../models/enum/Actions";
+import { mainColor } from "../../utils/constants/colors";
 
 const MealInCart = ({ meal }: { meal: MealInformation }) => {
   const { cartItems, dispatch } = useContext(CartContext);
@@ -50,7 +51,7 @@ const MealInCart = ({ meal }: { meal: MealInformation }) => {
           </QuantityButton>
         </div>
       </div>
-      <hr style={{ backgroundColor: "#e28e2f", height: "1px", border: "0" }} />
+      <hr style={{ backgroundColor: mainColor, height: "1px", border: "0" }} />
     </>
   );
 };

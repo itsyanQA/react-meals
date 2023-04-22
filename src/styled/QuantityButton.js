@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { mainColor } from "../utils/constants/colors";
 
 const QuantityButton = styled.button`
   color: #e28e2f;
   background-color: white;
-  border: 1px solid #e28e2f;
+  border: 1px solid ${mainColor};
   width: 40px;
   height: 30px;
   border-radius: 4px;
@@ -11,7 +12,7 @@ const QuantityButton = styled.button`
   cursor: pointer;
   &:hover {
     color: #fff;
-    background-color: #e28e2f;
+    background-color: ${mainColor};
   }
 `;
 

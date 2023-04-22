@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { mainColor } from "../utils/constants/colors";
 
 const CartActionButton = styled.button`
-  color: ${props => props.color || "#e28e2f"};
+  color: ${props => props.color || mainColor};
   background-color: ${props => props.backgroundColor || "white"};
-  border: 1px solid #e28e2f;
+  border: 1px solid ${mainColor};
   width: 100px;
   height: 35px;
   border-radius: 26px;
@@ -11,7 +12,7 @@ const CartActionButton = styled.button`
   cursor: pointer;
   &:hover {
     color: white;
-    background-color: #e28e2f;
+    background-color: ${mainColor};
   }
 `;
 

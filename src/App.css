@@ -8,3 +8,7 @@
 body {
     background-color: #262424;
 }
+
+:root {
+  --mainColor: #e28e2f;
+}
